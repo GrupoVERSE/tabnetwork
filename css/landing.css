@@ -1,0 +1,703 @@
+body
+{
+	font-family: 'Open Sans';
+}
+
+
+header
+{
+	background-size: cover; background-position: center center;  padding: 0px 0 0px 0;
+}
+
+header section
+{
+	padding: 60px 20px 60px;
+	background-color: rgba(34, 34, 34, 0.7);
+}
+
+header section img.logo
+{
+	border-radius: 10px;
+    	width: 84px;
+    	margin: 17px 0;
+}
+
+section.sidebar-information
+{
+	background-color: rgba(0,0,0,.4);
+    	padding: 30px 10% 10%;
+    	text-align: center;
+}
+
+header, header h1
+{
+	text-align: center
+}
+
+header h1
+{
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-weight: 300;
+}
+
+header h2
+{
+	color: white;
+	font-size: 17px;
+	margin-bottom: 30px;
+	font-family: 'Open Sans';
+	font-weight: 500;
+	margin-top: 35px;
+}
+
+
+header.blog-cover 
+{
+	background-size: cover;
+	background-position: center center;
+	background-color: #8a8a9b;
+}
+
+header section button
+{
+	color: #fff; 
+	background-color: #D84134; 
+	border-color: #d58512; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2); 
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075); 
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+    	display: inline-block; 
+    	font-weight: 300; 
+    	text-align: center; 
+    	vertical-align: middle; 
+    	cursor: pointer; 
+    	background-image: none; 
+    	border: 1px solid transparent; 
+    	white-space: nowrap; 
+    	padding: 6px 12px; 
+    	font-size: 14px; 
+    	line-height: 1.428571429; 
+    	border-radius: 4px; 
+    	-webkit-user-select: none; 
+    	margin: 0px 0 25px;	
+}
+
+div.title
+{
+	width: 100%;
+	max-width: 810px;
+	box-sizing: border-box;
+}
+
+h4
+{
+text-transform: uppercase;
+font-size: 12px;
+line-height: 32px;
+border-bottom: 1px #eee solid;
+color: #bbb;
+text-align: center;
+}
+
+
+
+header section div.social a img
+{	
+    	width: 45px;
+}
+
+
+div.contenido
+{
+	padding: 0 20px;
+}
+
+div.contenido section article
+{
+	font-weight: 300; 
+	margin-bottom: 4em;
+	font-size: 16px;
+	display: block;
+}
+
+div.contenido section article div.poster
+{
+	display: inline-block;	
+}
+
+div.contenido section article div.poster img
+{
+	width: 120px;
+}
+
+div.contenido section article div.datos-evento
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding: 0em .7em 0;
+}
+
+div.contenido section article div.datos-evento div.servicios
+{
+	display: inline-block;
+    width: 25px;
+    vertical-align: top;	
+
+}
+
+
+div.contenido section article div.datos-evento div.servicios span
+{
+	margin-right: 10px;
+    color: rgb(226, 37, 37);
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+div.contenido section article div.datos-evento div.title
+{
+	display: block;
+    	width: 100%;
+    	vertical-align: top;	
+}
+
+div.contenido section article div.datos-evento div.title p
+{
+	font-weight: 300;
+}
+
+div.contenido section article div.datos-evento div.title h3
+{
+	margin: 0;
+    	margin-bottom: .8em;	
+    	font-size: 20px;
+}
+
+div.contenido section article div.datos-evento div.title h3 a
+{
+	color: #D84134;
+	font-weight: 300;
+}
+
+
+.label 
+{
+	font-size: 75%;
+	vertical-align: top;
+}
+
+.label-amarillo
+{
+	background-color: #FFA627;
+}
+
+.label-disponible-morado
+{
+	background-color: #4F49D6
+}
+
+div.mc_embed_signup
+{
+	margin-top: 2em;
+	text-align: center
+}
+div.mc_embed_signup form > div
+{
+	display: block;
+}
+div.mc_embed_signup form p
+{
+	font-family: 'Open Sans';font-size: 15px;font-weight: 300;	
+}
+
+div.mc_embed_signup form div.mc-field-group
+{
+	width: 100%;	
+}
+
+div.mc_embed_signup form div.mc-field-group input
+{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+div.mc_embed_signup form div.mc-field-group input.email
+{
+	display: inline-block;
+    	width: 45%;
+    	margin-right: 1em;	
+}
+
+div.mc_embed_signup form div.mc-field-group input.enviar
+{
+	color: #fff; 
+    	border-color: #d58512; 
+    	text-shadow: 0 -1px 0 rgba(0,0,0,.2); 
+    	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+    	box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075); 
+    	display: inline-block; 
+    	font-weight: 600; 
+    	text-align: center;  
+    	cursor: pointer; 
+    	background-image: none; 
+    	border: 1px solid transparent; 
+    	white-space: nowrap; 
+    	padding: 6px 12px; 
+    	font-size: 14px;  
+    	border-radius: 4px; 
+    	-webkit-user-select: none; 
+    	vertical-align: top;	
+}
+
+div.mc_embed_signup form div.clear
+{
+	display: inline-block;padding: 0% 0%;
+}
+
+div.mc_embed_signup form div.clear input
+{
+	width: 100%;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	background: #D84134;
+	border-color: #FFFFFF;
+	color: white; 
+}
+
+div.busqueda
+{
+	margin: 2.3em 0 0;
+	text-align: left;
+}
+
+div.busqueda div.wrapper-buscador
+{
+	width: 66%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.busqueda div.wrapper-buscador input
+{
+	font-size: 14px; 
+	font-weight: 300;	
+}
+
+div.busqueda button.treslineas
+{
+	display: inline-block;
+	background: #979090;
+	margin: 0 0 0 1em;
+}
+
+div.busqueda button.treslineas span
+{
+	color: white;		
+}
+
+div.categorias
+{
+	display:none;
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus {
+text-decoration: none;
+background-color: transparent;
+}
+
+
+.nav > li {
+position: relative;
+display: block;
+text-align: left;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+text-shadow: 0 1px 0 rgba(255,255,255,.25);
+margin: .8em 0;
+}
+
+header.barranavegacion
+{
+	color: white;
+    	text-align: center;
+}
+
+header.barranavegacion div.contenedor
+{
+	text-align: center;
+}
+
+header.barranavegacion div.contenedor button.boton
+{
+	background: black;
+}
+
+header.barranavegacion div.contenedor button.boton span.iconos
+{
+	background: white;
+}
+
+div.barra-ipad
+{
+		display:none;
+}
+
+div.main-event
+{
+	border-bottom: 1px solid #585656; padding: 0 0 45px 0; margin: 0 0 45px 0;
+}
+
+div.main-event div.detalles
+{
+	text-align: center;
+}
+
+div.main-event div.detalles a
+{
+	color: black; margin: 0; font-weight: 100;
+}
+
+div.main-event figure
+{
+	width: 50%;margin: 3em 25% 1.5em;
+}
+
+div.main-event figure img
+{
+	width: 100%;
+}
+
+@media only screen and (min-width: 668px){
+
+	header.barranavegacion
+	{
+		display:none;
+	}
+
+	div.barra-ipad
+	{
+		display:block;
+	}
+	div.categorias
+	{
+		text-align: center;
+	}
+
+	div.categorias a
+	{
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		width: 9em;
+		padding: 0 .6em 0 0;
+		margin: 0 .3em 0 0;
+	}
+
+	div.categorias a span 
+	{
+		font-size: 100%;
+		padding: .5em 0em .6em;
+		font-weight: 300;
+		color: #FFFFFF;
+		background-color: #D84134;
+		text-decoration: none;
+		margin: 0 1em 0 0;
+		display: inline-block;
+	}	
+
+	div.contenido section article
+	{
+		text-align: center;
+	}
+
+	div.contenido section article div.datos-evento
+	{
+	display: inline-block;
+	vertical-align: top;
+	width: 56%;
+	padding: 0em .7em 0;
+	}
+
+	header section 
+	{
+		padding: 15px 20px 25px;
+		background-color: rgba(34, 34, 34, 0.7);
+	}
+
+
+}
+
+@media only screen and (min-width: 868px){
+	
+
+
+	header
+	{
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 30%;
+		max-width: 500px;
+		background: #303538 no-repeat center center;
+		background-size: cover;
+		font-family: SourceSansPro,sans-serif;
+	}
+
+	header section
+	{
+		background-color: rgba(0,0,0,.6);
+		padding: 20px 10% 2em;
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+	}
+
+	header h1
+	{
+		line-height: 32px;
+		color: #fff;
+		font-weight: 300;
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 12px;
+	}
+
+	header h2
+	{
+		color: white;
+		font-size: 16px;
+		margin-bottom: 30px;
+		font-weight: 400;
+		font-family: 'Arial';
+		line-height: 21.6px;'
+	}
+
+	div.contenido
+	{
+		position: absolute;
+		top: 0;
+		right: 0;	
+		bottom: 0;
+		width: 70%;
+		overflow-x: auto;
+		padding: 0 20px 0 3em;
+	}
+
+	.ui-footer
+	{
+		display: none;
+	}
+
+	div.categorias
+	{
+		margin: 1em 0 6em;
+		width: 100%;
+		margin: 2em 0 4em;
+		display: block;
+	}
+
+	div.categorias a
+	{
+		text-decoration: none;
+		color: white;
+		display: block;
+		width: 100%;
+	}
+
+
+	div.categorias a span
+	{
+		font-size: 100%;
+		font-weight: 300;
+		color: #FFFFFF;
+		background-color: #D84134;
+		text-decoration: none;
+  		width: 100%;
+		display: block;
+	}
+
+	div.busqueda button.treslineas
+	{
+		display: inline-block;
+		background: #FFFFFF;
+		margin: 0 0 0 .2em;
+		border-color: #FFFFFF;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	div.busqueda button.treslineas span
+	{
+		color: black;		
+	}
+
+	div.categorias
+	{
+		margin: 0 0 5em;
+		text-align: left;
+	}
+
+	div.categorias a
+	{
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		width: 9em;
+		padding: 0 .6em 0 0;
+		margin: 0 .3em 0 0;
+	}
+
+	div.categorias a:first-child
+	{
+	width: 6em;
+	margin-right: 1.9em;
+	}
+
+	div.categorias a span 
+	{
+		font-size: 100%;
+		font-weight: 300;
+		color: #000000;
+		background-color: #FFFFFF;
+		text-align: center;
+	}
+
+	div.main-event
+	{
+		margin: 0 0 4.5em 0;
+		border-bottom: none;
+		padding: 0;
+	}
+
+	div.main-event figure
+	{
+		display: inline-block;
+    		vertical-align: top;
+    		width: 25%;
+    		margin: 0;
+	}
+	
+	div.main-event figure img
+	{
+		width: 100%;	
+	}
+
+	div.main-event div.detalles
+	{
+		display: inline-block;
+    		vertical-align: top;
+    		font-weight: 300;
+    		color: black;
+    		width: 55%;
+    		margin: 0 3em;
+    		text-align: left;	
+	}
+
+	div.main-event h2
+	{
+		margin: .5em 0 1em;
+	}
+	div.main-event h2 a
+	{
+		color: black; margin: 0; font-weight: 100;
+	}
+
+	div.main-event div.detalles span
+	{
+		display: inline-block;
+    		margin-right: .8em;
+	}
+
+	div.main-event div.detalles p
+	{
+		display: inline-block;
+	}
+
+	div.mc_embed_signup
+	{
+		margin-top: 2em;
+		text-align: left
+	}
+
+}
+
+@media only screen and (min-width: 980px){
+
+	body
+	{
+		display: block;
+	}
+
+	div.mc_embed_signup
+	{
+		margin-top: 2em;
+		text-align: left;
+		margin-bottom: 5em;
+	}
+	div.mc_embed_signup form > div
+	{
+		display: inline-block;
+	}
+
+	div.mc_embed_signup form p
+	{
+		font-family: 'Open Sans';font-size: 15px;font-weight: 300;	
+	}
+
+	div.mc_embed_signup form div.mc-field-group
+	{
+		width: 100%;	
+		display: inline-block;
+	}
+
+	div.mc_embed_signup form div.mc-field-group input
+	{
+		font-size: 14px;
+    		font-weight: 300;
+	}
+
+	div.mc_embed_signup form div.clear
+	{
+		display: inline-block;padding: 0% 0%;
+	}
+
+	div.mc_embed_signup form div.clear input
+	{
+		width: 100%;font-family: 'Open Sans';font-weight: 300;background: #D84134;border-color: #FFFFFF;color: white; margin: 0 0 0 1em;
+	}
+	
+	h4
+	{
+		text-align: left;
+	}
+	
+	div.contenido section article
+	{
+		text-align: left;
+	}
+
+
+}
+
+@media only screen and (min-width: 1230px){
+
+div.busqueda {
+margin: 1.1em 1.6em 0;
+display: inline-block;
+vertical-align: top;
+}
+
+div.busqueda div.wrapper-buscador {
+width: 73%;
+display: inline-block;
+vertical-align: top;
+}
+
+}
