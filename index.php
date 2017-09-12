@@ -178,13 +178,10 @@
                                 <div>
                                     <article>
                                         <a href="https://www.youtube.com/watch?v=7VPIiNWxkhg&list=PLwyBUYgAOQ9e2YpuoJqeNX-QkwGQjiqPA" class="image">
-                                            <img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/dxReiUxfT5qK0ZhFTTkm_CCI_U10X-08.jpg" alt=""></a>
                                         <div class="content">
                                             <h3>Universitario 10X</h3>
                                             <p>Da un salto exponencial en tu vida universitaria.</p>
-                                            <ul class="actions">
-                                                <li><a href="#" class="button">Leer más</a></li>
-                                            </ul>
                                         </div>
                                     </article>
                                 </div>
@@ -196,57 +193,57 @@
                                         <div class="content">
                                             <h3>Marketing PRO</h3>
                                             <p>Crea tu primera campaña de Marketing Online.</p>
-                                            <ul class="actions">
-                                                <li><a href="#" class="button">Leer más</a></li>
-                                            </ul>
                                         </div>
                                     </article>
                                 </div>
                                 <div>
                                     <article>
-                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <a href="https://www.youtube.com/watch?v=5vzA1sxDeTQ&list=PLwyBUYgAOQ9fUxm8JYlIryVNaKfuw0mqP" class="image">
+                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/nhAoZTTWRkmPwqP7SaDi_CCI_LE-08.jpg" alt="">
+                                        </a>
                                         <div class="content">
                                             <h3>Liderazgo Empresarial</h3>
                                             <p>Cómo llevar a tu equipo a través del cambio.</p>
-                                            <ul class="actions">
-                                                <li><a href="#" class="button">Leer más</a></li>
-                                            </ul>
                                         </div>
                                     </article>
                                 </div>
                                 <div>
                                     <article>
-                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <a href="https://www.youtube.com/watch?v=3QDc7OS7a9g&list=PLwyBUYgAOQ9esoq1DjrJAIjSEIXHryVqz" class="image"><img src="http://tabuniversity.com/wp-content/uploads/2017/09/rAsFqJBFSSKpsTTvwpjE_2611489620256.original.jpg" alt=""></a>
                                         <div class="content">
                                             <h3>Tácticas de Ventas para Principiantes</h3>
                                             <p>Estrategias y aptitudes esenciales para vender.</p>
-                                            <ul class="actions">
-                                                <li><a href="#" class="button">Leer más</a></li>
-                                            </ul>
                                         </div>
                                     </article>
                                 </div>
                                 <div>
                                     <article>
-                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <a href="https://www.youtube.com/watch?v=dkWV2ljmlIc&list=PLwyBUYgAOQ9c9tgyyRNer8Y_sVdiLBpp0" class="image">
+                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/2571500395316.original.png" alt=""></a>
                                         <div class="content">
-                                            <h3>Universitario 10X</h3>
+                                            <h3>Curso Básico de Comercio Electrónico</h3>
                                             <p>Da un salto exponencial en tu vida universitaria.</p>
-                                            <ul class="actions">
-                                                <li><a href="#" class="button">Leer más</a></li>
-                                            </ul>
                                         </div>
                                     </article>
                                 </div>
                                 <div>
                                     <article>
-                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <a href="https://www.youtube.com/watch?v=1JbB5t5ZwAk&list=PLwyBUYgAOQ9e_mOarjKjz_zrMjjX-i5v4" class="image">
+                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/9341502159327.original.png" alt=""></a>
                                         <div class="content">
-                                            <h3>Universitario 10X</h3>
+                                            <h3>Entrenamiento en Livestreaming</h3>
                                             <p>Da un salto exponencial en tu vida universitaria.</p>
-                                            <ul class="actions">
-                                                <li><a href="#" class="button">Leer más</a></li>
-                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div>
+                                    <article>
+                                        <a href="https://www.youtube.com/watch?v=SNHiyE26CU8&list=PLwyBUYgAOQ9eq4XuMxRSztYUuLJ9j2yrA" class="image">
+                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/0611496975598.original.png" alt="">
+                                        </a>
+                                        <div class="content">
+                                            <h3>Clase Maestra de Marca Personal</h3>
+                                            <p>Comunica todos tus talentos y triunfa profesionalmente.</p>
                                         </div>
                                     </article>
                                 </div>
