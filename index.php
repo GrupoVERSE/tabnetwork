@@ -33,7 +33,6 @@
 
   ga('create', 'UA-77533900-2', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 <script>
@@ -104,41 +103,30 @@
                                             <h2>Agenda</h2>
                                         </header>
                                         <ul class="style3">
-                                            <li class="first">
-                                                <p class="date"><a href="#">Aug<b>24</b></a></p>
-                                                <h3>Phasellus lorem ipsum</h3>
-                                                <p><a href="#" style="
-    border-bottom: none;
-">Lorem ipsum dolor sit amet, consecetuer adipiscing elit phasellus hendrerit.</a></p>
+                                            <li>
+                                                <p class="date">Sep<b>22</b></p>
+                                                <h3><a href="https://www.facebook.com/events/1935478423392673/" target="_blank">Social Media Workshop</a></h3>
+                                                <p><strong>Veracruz, México.</strong></p>
+                                                <p>Taller estratégico sobre su implementación táctica en redes sociales.</p>
+                                            </li>                                            
+                                            <li>
+                                                <p class="date">Oct<b>14</b></p>
+                                                <h3><a href="https://www.facebook.com/events/941856056022399/" target="_blank">Project Management Workshop</a></h3>
+                                                <p><strong>Ciudad de México, México.</strong></p>
+                                                <p>Curso intensivo de gestión de proyectos.</p>
                                             </li>
                                             <li>
-                                                <p class="date"><a href="#">Aug<b>24</b></a></p>
-                                                <h3>Amet hendrerit</h3>
-                                                <p><a href="#" style="
-    border-bottom: none;
-">Lorem ipsum dolor sit amet, consecetuer adipiscing elit phasellus hendrerit.</a></p>
+                                                <p class="date">Oct<b>21</b></p>
+                                                <h3><a href="https://www.facebook.com/events/1649464638418896/" target="_blank">Business Master Class</a></h3>
+                                                <p><strong>Puebla, México.</strong></p>
+                                                <p>Curso intensivo de gestión de proyectos.</p>
                                             </li>
-                                            
-<li>
-                                                <p class="date"><a href="#">Aug<b>24</b></a></p>
-                                                <h3>Libero consequat</h3>
-                                                <p><a href="#" style="
-    border-bottom: none;
-">Lorem ipsum dolor sit amet, consecetuer adipiscing elit phasellus hendrerit.</a></p>
-                                            </li>
-<li>
-                                                <p class="date"><a href="#">Aug<b>24</b></a></p>
-                                                <h3>Libero consequat</h3>
-                                                <p><a href="#" style="
-    border-bottom: none;
-">Lorem ipsum dolor sit amet, consecetuer adipiscing elit phasellus hendrerit.</a></p>
-                                            </li><li>
-                                                <p class="date"><a href="#">Aug<b>24</b></a></p>
-                                                <h3>Libero consequat</h3>
-                                                <p><a href="#" style="
-    border-bottom: none;
-">Lorem ipsum dolor sit amet, consecetuer adipiscing elit phasellus hendrerit.</a></p>
-                                            </li>
+                                            <li>
+                                                <p class="date">Oct<b>28</b></p>
+                                                <h3><a href="https://www.facebook.com/events/1433569226691643/" target="_blank">Branding Master Class</a></h3>
+                                                <p><strong>Ciudad de México. México. Septiembre 2017.</strong></p>
+                                                <p>Curso intensivo de gestión de proyectos.</p>
+                                            </li>                                            
                                         </ul>
                                     </section>
                                 </div>
@@ -147,54 +135,42 @@
                                 <div id="sidebar" class="4u 12u(mobile)">
                                     <section>
                                         <header>
-                                            <h2 style="
-    font-size: 2em;
-">Asiste a nuestros próximos eventos</h2>
+                                            <h2 style="font-size: 2em;">Asiste a nuestros próximos eventos</h2>
                                         </header>
                                         <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/20901720_2364326083791515_7722115604214848137_o.jpg?oh=7cc475ad08374ba357ef3f61e1b5a818&amp;oe=5A4BFFE8" alt="" class="image featured">
-                                        <p>Lorem ipsum dolor sit amet, consecetuer adipiscing elit. Phasellus hendrerit. Lorem ipsum dolor sit amet, consecetuer adipiscing elit.</p>
                                     </section>
                                 </div>
-
+                            </div>
                         </div>
-
                     </div>
-                </div>
-
 
                 <!-- Section -->
                     
-<section id="three" class="main alt" style="
-    background: #f7f7f7;
-">
-                        
-                        <br>
-<br><br>
-<div class="inner">
-                            <div class="posts" style="
-    margin: 0 0 0rem 0;
-">
-                                <div>
-                                    <article>
-                                        <a href="#" class="image">
-                                            <img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt="">
-                                        </a>
-                                        <div class="content">
-                                            <h3>Blandit aliquam</h3>
-                                            <p>Feugiat ultrices sed nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non magna.</p>
-                                            <ul class="actions">
-                                                <li><a href="#" class="button">Leer más</a></li>
-                                            </ul>
-                                        </div>
-                                    </article>
-                                    
-                                </div>
-                                <div>
-                                    <article>
-    <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
-                                        <div class="content">
-                                            
-<h3>Sed amet feugiat</h3>
+                <section id="three" class="main alt" style="background: #f7f7f7;">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="inner">
+                        <div class="posts" style="margin: 0 0 0rem 0;">
+                            <div>
+                                <article>
+                                    <a href="#" class="image">
+                                        <img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <h3>Blandit aliquam</h3>
+                                        <p>Feugiat ultrices sed nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non magna.</p>
+                                        <ul class="actions">
+                                            <li><a href="#" class="button">Leer más</a></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article>
+                                    <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <div class="content">                                            
+                                            <h3>Sed amet feugiat</h3>
                                             <p>Phasellus ultrices sed nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non.</p>
                                             <ul class="actions">
                                                 <li><a href="#" class="button">Leer más</a></li>

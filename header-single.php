@@ -9,7 +9,7 @@
                             <nav id="nav">
                                 <ul>
                                     <li class="current opener" style="user-select: none;cursor: pointer;white-space: nowrap;opacity: 1;">
-                                        <a href="#" class="icon fa-angle-down">Plataforma</a>
+                                        <a href="http://tabuniversity.com/" class="icon fa-angle-down">Publicaciones</a>
                                         
                                     <ul class="" style="user-select: none; display: none; position: absolute;">
                                             <li style="white-space: nowrap;"><a href="#" style="display: block;">Cursos Online</a></li>

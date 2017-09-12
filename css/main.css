@@ -1045,9 +1045,10 @@
 		}
 
 		ul.style3 a {
-			display: block;
-			text-decoration: none;
-			color: #6c6c6c;
+			    display: block;
+    			text-decoration: underline;
+    			border-bottom-color: transparent;
+    			color: #23b1ec !important;
 		}
 
 			ul.style3 a:hover {
@@ -7243,3 +7244,10 @@
 		transform: translateX(0);
 		visibility: visible;
 	}
+
+/* Extra CSS */
+
+.featured-thumbnail img {
+        max-width: 100%;
+        height: auto !important;
+        }

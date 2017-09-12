@@ -47,7 +47,38 @@ function rw_register_meta_boxes( $meta_boxes )
                 'cols' => 20,
                 'rows' => 3,
             ),     
-        )
+        ),
+    );    
+    $meta_boxes[] = array(
+        'title'    => 'Detalles del evento',
+        'pages'    => array( 'page'),
+        'fields' => array(
+            array(
+                'name' => 'Descripción',
+                'id'   => $prefix . 'descripcion',
+                'std'   => '',
+                'type' => 'text',
+            ),
+            array(
+                'name' => 'Fecha de inicio',
+                'id'   => $prefix . 'fechainicio',
+                'std'   => '',
+                'type' => 'datetime',
+            ),
+            array(
+                'name' => 'Fecha de finalización',
+                'id'   => $prefix . 'fechafinalizacion',
+                'std'   => '',
+                'type' => 'datetime',
+            ),
+            array(
+                'name' => 'URL',
+                'id'   => $prefix . 'urlboton',
+                'desc' => 'Coloca la URL de Facebook.',
+                'std'   => '',
+                'type' => 'text',
+            ),
+        ),
     );    
     return $meta_boxes;
 }

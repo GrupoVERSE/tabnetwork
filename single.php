@@ -36,9 +36,9 @@
         <!-- Wrapper -->
             <div id="wrapper" style="margin-top: 4em;">
 
-                    <?php get_header('publicaciones') ?>
+                    <?php get_header('single') ?>
                 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 
 
@@ -51,7 +51,14 @@
                         </header>
                         <div class="inner alt">
                             <div class="content">
+                                <div class="featured-thumbnail">
+                                <?php the_post_thumbnail(); ?>
+                                </div>
+                                <br>
+                                <br>
                                 <?php the_content(); ?>
+                                <br>
+                                <br>
                                 <div style="padding-top: 30px;padding-bottom: 30px; background-color: #f7f7f7; padding-left: 4%;">
                                     <?php echo get_avatar( get_the_author_meta( 'ID' ) , 170 ); ?>
                                     <div style="margin-left:5%;display: inline-block; vertical-align: top;">
@@ -63,6 +70,7 @@
                                         &nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa fa-linkedin"></i></span>
                                     </div>
                                 </div>
+                                <br>
                             </div>
                             <div>
                                 

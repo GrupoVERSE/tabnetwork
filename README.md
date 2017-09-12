@@ -3,7 +3,6 @@ TAB University Blog
 **Requerimientos de instalación**
 
 1. Wordpress
-2. 
 
 **Plugins necesarios**
 
