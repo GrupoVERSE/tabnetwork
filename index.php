@@ -58,8 +58,8 @@
                                 </p>
                             </header>
                             <ul class="actions">
-                                <li><a href="#one" class="button big wide scrolly" style="color: white !important;box-shadow: inset 0 0 0 3px #ffffff;">
-                                    Regístrate</a>
+                                <li><a href="http://facebook.com/groups/ComunidadTAB/" class="button big wide scrolly" style="color: white !important;box-shadow: inset 0 0 0 3px #ffffff;">
+                                    Unirme a la Comunidad</a>
                                 </li>
                             </ul>
                         </div>
