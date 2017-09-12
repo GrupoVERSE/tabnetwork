@@ -67,7 +67,7 @@
                             <div class="inner">
                                 <div class="features">
                                     <section>
-                                        <span class="icon fa-users major"></span>
+                                        <a target="_blank" href="http://facebook.com/groups/ComunidadTAB/"><span class="icon fa-users major"></span></a>
                                         <h3>Comunidad de Alto Desempeño</h3>
                                         <p>Rodéate de +1000 empresarios, artistas y profesionistas excepcionales.</p>
                                     </section>                                    
