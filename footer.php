@@ -23,5 +23,25 @@
             </ul>
     </section>
     <section class="narrow">
-    <h4>Menú</h4><ul class="links"><li><a style="cursor: pointer;">Ultrices nulla</a></li><li><a style="cursor: pointer;">Quis lectus donec</a></li><li><a style="cursor: pointer;">Magna ligula</a></li><li><a style="cursor: pointer;">Sed etiam tristique</a></li><li><a style="cursor: pointer;">Cursus magna</a></li><li><a style="cursor: pointer;">Gravida dolore</a></li></ul></section><section><h3>Contacto</h3><p style="
-    color: black;">Insurgentes Sur 859 Piso 2 Suite 282.</p><p></p><p><a class="major" style="cursor: pointer;">(000) 000-0000</a></p></section></div><div class="copyright"><p>© TAB University 2017. Relacionado con Grupo VERSE. Todos los derechos reservados.</p></div></footer>
+    <h4>Menú</h4>
+    <ul class="links">
+        <li>
+            <a href="http://tabuniversity.com/publicaciones" style="cursor: pointer;">Publicaciones</a>
+        </li>
+        <li>
+            <a href="http://tabuniversity.com/eventos" style="cursor: pointer;">Eventos</a>
+        </li>
+        <li>
+            <a style="cursor: pointer;">Comunidad</a>
+        </li>
+        <li>
+            <a style="cursor: pointer;">Empresas</a>
+        </li>
+    </ul>
+</section>
+<section>
+    <h3>Contacto</h3>
+    <p style="color: black;">Insurgentes Sur 859 Piso 2 Suite 282.</p>
+    <p></p>
+    <p><a class="major" style="cursor: pointer;">(+52) 155 3073 8220</a></p></section></div><div class="copyright"><p>
+    © TAB University 2017. Una empresa de Grupo VERSE. Todos los derechos reservados.</p></div></footer>

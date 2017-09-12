@@ -1,4 +1,4 @@
-			<!-- Header -->
+            <!-- Header -->
                     <header id="header" class="alt">
                         <!-- Logo -->
                             <div class="logo">
@@ -9,18 +9,16 @@
                             <nav id="nav">
                                 <ul>
                                     <li class="current opener" style="user-select: none;cursor: pointer;white-space: nowrap;opacity: 1;">
-                                        <a href="http://tabuniversity.com/" class="icon fa-angle-down">Publicaciones</a>
+                                        <a href="http://tabuniversity.com/publicaciones" class="icon fa-angle-down" style="color:white !important;">Publicaciones</a>
                                         
                                     <ul class="" style="user-select: none; display: none; position: absolute;">
-                                            <li style="white-space: nowrap;"><a href="#" style="display: block;">Cursos Online</a></li>
-                                            <li style="white-space: nowrap;"><a href="#" style="display: block;">Artículos</a></li>
-                                            <li style="white-space: nowrap;"><a href="#" style="display: block;">Podcast</a></li>
-                                            <li style="white-space: nowrap;"><a href="#" style="display: block;">TABcast</a></li>
+                                            <li style="white-space: nowrap;"><a href="http://tabuniversity.com/articulos" style="display: block;">Artículos</a></li>
+                                            <li style="white-space: nowrap;"><a href="http://tabuniversity.com/cursos" style="display: block;">Cursos</a></li>
+                                            <li style="white-space: nowrap;"><a href="http://tabuniversity.com/tabcast" style="display: block;">TABcast</a></li>
                                         </ul></li>
                                     
-                                    <li style="white-space: nowrap;"><a href="elements.html">Eventos</a></li>
-                                    <li style="white-space: nowrap;"><a href="elements.html">Comunidad</a></li>
-                                    <li style="white-space: nowrap;"><a href="elements.html">Empresas</a></li>
+                                    <li style="white-space: nowrap;"><a style="color:white;" href="http://tabuniversity.com/eventos">Eventos</a></li>
+                                    <li style="white-space: nowrap;"><a style="color:white;" href="https://www.facebook.com/groups/ComunidadTAB/">Comunidad</a></li>
                                 </ul>
                             </nav>
 

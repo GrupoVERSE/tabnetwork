@@ -158,8 +158,8 @@
                                         <img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt="">
                                     </a>
                                     <div class="content">
-                                        <h3>Blandit aliquam</h3>
-                                        <p>Feugiat ultrices sed nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non magna.</p>
+                                        <h3>#71SEXYACKS</h3>
+                                        <p>Ideas y herramientas efectivas para tu marca personal.</p>
                                         <ul class="actions">
                                             <li><a href="#" class="button">Leer más</a></li>
                                         </ul>
@@ -170,8 +170,8 @@
                                 <article>
                                     <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
                                         <div class="content">                                            
-                                            <h3>Sed amet feugiat</h3>
-                                            <p>Phasellus ultrices sed nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non.</p>
+                                            <h3>Emprendimiento Avanzado</h3>
+                                            <p>Domina los negocios desde una posición superior. Sé trascendental.</p>
                                             <ul class="actions">
                                                 <li><a href="#" class="button">Leer más</a></li>
                                             </ul>
@@ -183,8 +183,68 @@
                                     <article>
                                         <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
                                         <div class="content">
-                                            <h3>Ipsum volutpat</h3>
-                                            <p>Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non. Phasellus et ultricesnulla quis nibh. Quisque amet lorem lectus. Magna consectetuer ligula vulputate sem tristique cursus magna.</p>
+                                            <h3>Universitario 10X</h3>
+                                            <p>Da un salto exponencial en tu vida universitaria.</p>
+                                            <ul class="actions">
+                                                <li><a href="#" class="button">Leer más</a></li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div>
+                                    <article>
+                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <div class="content">
+                                            <h3>Marketing PRO</h3>
+                                            <p>Crea tu primera campaña de Marketing Online.</p>
+                                            <ul class="actions">
+                                                <li><a href="#" class="button">Leer más</a></li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div>
+                                    <article>
+                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <div class="content">
+                                            <h3>Liderazgo Empresarial</h3>
+                                            <p>Cómo llevar a tu equipo a través del cambio.</p>
+                                            <ul class="actions">
+                                                <li><a href="#" class="button">Leer más</a></li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div>
+                                    <article>
+                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <div class="content">
+                                            <h3>Tácticas de Ventas para Principiantes</h3>
+                                            <p>Estrategias y aptitudes esenciales para vender.</p>
+                                            <ul class="actions">
+                                                <li><a href="#" class="button">Leer más</a></li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div>
+                                    <article>
+                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <div class="content">
+                                            <h3>Universitario 10X</h3>
+                                            <p>Da un salto exponencial en tu vida universitaria.</p>
+                                            <ul class="actions">
+                                                <li><a href="#" class="button">Leer más</a></li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div>
+                                    <article>
+                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <div class="content">
+                                            <h3>Universitario 10X</h3>
+                                            <p>Da un salto exponencial en tu vida universitaria.</p>
                                             <ul class="actions">
                                                 <li><a href="#" class="button">Leer más</a></li>
                                             </ul>
