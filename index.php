@@ -165,21 +165,20 @@
                             </div>
                             <div>
                                 <article>
-                                    <a href="#" class="image">
-                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/bb8KIphKQ6igP0K8v29s_CCI_EA-08.jpg" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=jRyjl1QTklk&list=PLwyBUYgAOQ9fhvZeEGYpDsMdch0OV6UML" class="image">
+                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/bb8KIphKQ6igP0K8v29s_CCI_EA-08.jpg" alt="">
+                                    </a>
                                         <div class="content">                                            
                                             <h3>Emprendimiento Avanzado</h3>
                                             <p>Domina los negocios desde una posición superior. Sé trascendental.</p>
-                                            <ul class="actions">
-                                                <li><a href="#" class="button">Leer más</a></li>
-                                            </ul>
                                         </div>
                                     </article>
                                     
                                 </div>
                                 <div>
                                     <article>
-                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <a href="https://www.youtube.com/watch?v=7VPIiNWxkhg&list=PLwyBUYgAOQ9e2YpuoJqeNX-QkwGQjiqPA" class="image">
+                                            <img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
                                         <div class="content">
                                             <h3>Universitario 10X</h3>
                                             <p>Da un salto exponencial en tu vida universitaria.</p>
@@ -191,7 +190,9 @@
                                 </div>
                                 <div>
                                     <article>
-                                        <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                        <a href="https://www.youtube.com/watch?v=EtOeMSnlnYg&list=PLwyBUYgAOQ9dZMhkYP4J-EfYp8zt_SDG5" class="image">
+                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/KZ3BQKQhSUOzbccKowB1_CCI_MKTPRO-08.jpg" alt="">
+                                        </a>
                                         <div class="content">
                                             <h3>Marketing PRO</h3>
                                             <p>Crea tu primera campaña de Marketing Online.</p>
