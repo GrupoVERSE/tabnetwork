@@ -154,21 +154,19 @@
                         <div class="posts" style="margin: 0 0 0rem 0;">
                             <div>
                                 <article>
-                                    <a href="#" class="image">
-                                        <img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt="">
+                                    <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
+                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
                                     </a>
                                     <div class="content">
-                                        <h3>#71SEXYACKS</h3>
+                                        <h3>#71SEXYACKS para tu marca personal</h3>
                                         <p>Ideas y herramientas efectivas para tu marca personal.</p>
-                                        <ul class="actions">
-                                            <li><a href="#" class="button">Leer más</a></li>
-                                        </ul>
                                     </div>
                                 </article>
                             </div>
                             <div>
                                 <article>
-                                    <a href="#" class="image"><img src="https://pixelarity.com/items/demos/hypothesis/blue/images/pic05.jpg" alt=""></a>
+                                    <a href="#" class="image">
+                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/bb8KIphKQ6igP0K8v29s_CCI_EA-08.jpg" alt=""></a>
                                         <div class="content">                                            
                                             <h3>Emprendimiento Avanzado</h3>
                                             <p>Domina los negocios desde una posición superior. Sé trascendental.</p>
