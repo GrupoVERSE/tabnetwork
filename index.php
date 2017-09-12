@@ -199,17 +199,10 @@
         </div>
 
         <!-- Scripts -->
-            <script src="http://localhost:8888/tabuniversity/wp-content/themes/tabuniversity-wp/js/jquery.min.js"></script>
-            <script src="http://localhost:8888/tabuniversity/wp-content/themes/tabuniversity-wp/js/jquery.dropotron.js"></script>
-            <script src="http://localhost:8888/tabuniversity/wp-content/themes/tabuniversity-wp/js/skel.min.js"></script>
-            <script src="http://localhost:8888/tabuniversity/wp-content/themes/tabuniversity-wp/js/util.js"></script>
+            <script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/jquery.min.js"></script>
+            <script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/jquery.dropotron.js"></script>
+            <script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/skel.min.js"></script>
+            <script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/util.js"></script>
             <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-            <script src="http://localhost:8888/tabuniversity/wp-content/themes/tabuniversity-wp/js/main.js"></script>
-
-    
-<ul class="dropotron dropotron-level-0 center" style="user-select: none; position: absolute; z-index: 1000; left: 768.359px; top: 75px; opacity: 1; display: none;">
-                                            <li style="white-space: nowrap;"><a href="#" style="display: block;">Option One</a></li>
-                                            <li style="white-space: nowrap;"><a href="#" style="display: block;">Option Two</a></li>
-                                            <li style="white-space: nowrap;"><a href="#" style="display: block;">Option Three</a></li>
-                                        </ul><div id="navButton"><a href="#navPanel" class="toggle"></a></div><div id="navPanel"><nav><a class="link depth-0" href="#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Plataforma</a><a class="link depth-1" href="#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Option One</a><a class="link depth-1" href="#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Option Two</a><a class="link depth-1" href="#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Option Three</a><a class="link depth-0" href="generic.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Cursos</a><a class="link depth-0" href="elements.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Eventos</a><a class="link depth-0" href="elements.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Comunidad</a><a class="link depth-0" href="elements.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Empresas</a></nav></div><iframe id="intercom-frame" style="display: none;"></iframe><div id="intercom-container" style="position: fixed; width: 0px; height: 0px; bottom: 0px; right: 0px; z-index: 2147483647;"><div data-reactroot="" class="intercom-app intercom-app-launcher-enabled"><span></span><iframe allowfullscreen="" class="intercom-launcher-frame"></iframe><span></span><!-- react-empty: 5 --><span></span><!-- react-empty: 7 --></div></div></body>
+            <script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/main.js"></script>
 </html>
