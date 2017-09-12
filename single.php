@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-    Hypothesis by Pixelarity
-    pixelarity.com | hello@pixelarity.com
-    License: pixelarity.com/license
--->
+
 <html>
     <head>
         <title>Untitled</title>
@@ -40,14 +36,12 @@
                 
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-
-
                     <section id="one" class="main alt">
                         <header class="accent1" style="text-align:center;">
                             <h1><?php the_title(); ?></h1>
                             <p><?php echo rwmb_meta( 'rw_subtitulo' ); ?></p>
                             <time class="post-date" ><?php the_date('d' . '/' . 'n'. '/' . 'Y', ' '); ?></time>
-                            <p>Artículo por <a href="#">Mike Nieva</p></a>
+                            <p>Redactado por <a href="#">Mike Nieva</p></a>
                         </header>
                         <div class="inner alt">
                             <div class="content">
