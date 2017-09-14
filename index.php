@@ -156,7 +156,6 @@ wp_reset_query();  // Restore global post data
                         </header>
                         <br>
                         <div class="posts" style="margin: 0 0 0rem 0;">
-
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                             <div>
                                 <article>
