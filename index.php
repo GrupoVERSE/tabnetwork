@@ -174,6 +174,8 @@ wp_reset_query();  // Restore global post data
                                                 echo '<span class="label label-cursosonline">' . $cat_name . '</span>';
                                             } elseif($cat_name == 'Eventos') {
                                                 echo '<span class="label label-eventos">' . $cat_name . '</span>';
+                                            } elseif($cat_name == 'Artículos') {
+                                                echo '<span class="label label-articulos">' . $cat_name . '</span>';
                                             }
                                             ?>
                                         <br>
