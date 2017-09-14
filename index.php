@@ -105,7 +105,9 @@
 
 
 <?php
-query_posts(array('showposts' => 10, 'post_parent' => 135, 'post_type' => 'page', 'order' => 'ASC'));
+$page = get_page_by_title( 'Eventos');
+$idpage = $page->ID;
+query_posts(array('showposts' => 10, 'post_parent' => $page->ID, 'post_type' => 'page', 'order' => 'ASC'));
 
 while (have_posts()) { the_post();
 echo '<li>';
