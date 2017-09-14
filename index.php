@@ -136,14 +136,12 @@ wp_reset_query();  // Restore global post data
                                             <h2 style="font-size: 2em;">Agenda de Transmisiones</h2>
                                         </header>
                                         <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/20901720_2364326083791515_7722115604214848137_o.jpg?oh=7cc475ad08374ba357ef3f61e1b5a818&amp;oe=5A4BFFE8" alt="" class="image featured">
-                                        <p>Hacks para PAD</p>
+                                        <p>No hay transmisiones próximas.</p>
                                     </section>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                                                                                 
 
                 <!-- Section -->
@@ -158,10 +156,41 @@ wp_reset_query();  // Restore global post data
                         </header>
                         <br>
                         <div class="posts" style="margin: 0 0 0rem 0;">
+
+                        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                            <div>
+                                <article>
+                                    <?php echo '<a href="' . get_permalink() . '" class="image">'?>
+                                    <?php
+                                    $thumb = get_the_post_thumbnail_url();
+                                    echo '<img src="' . $thumb . '">'
+                                    ?>
+                                    </a>
+                                    <div class="content">
+                                            <?php 
+                                            $categories = get_the_category(); 
+                                            $cat_name = $categories[0]->cat_name;
+                                            if ($cat_name == 'Cursos Online'){
+                                                echo '<span class="label label-cursosonline">' . $cat_name . '</span>';
+                                            } elseif($cat_name == 'Eventos') {
+                                                echo '<span class="label label-eventos">' . $cat_name . '</span>';
+                                            }
+                                            ?>
+                                        <br>
+                                        <br>
+                                        <h3><a href="<?php echo get_permalink() ?>"><?php the_title() ?></a></h3>
+                                        <p><?php echo rwmb_meta( 'rw_subtitulo' ); ?>.</p>
+                                    </div>
+                                </article>
+                            </div>
+
+                        <?php endwhile; else : ?>
+                        <?php endif; ?>
+                            
                             <div>
                                 <article>
                                     <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
-                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
+                                        <img src="http://localhost:8888/tabuniversity/wp-content/uploads/2017/09/21167856_2371322049758585_3140622586444833314_o.jpg" alt="">
                                     </a>
                                     <div class="content">
                                         <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
@@ -177,32 +206,16 @@ wp_reset_query();  // Restore global post data
                             <div>
                                 <article>
                                     <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
-                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
+                                        <img src="http://localhost:8888/tabuniversity/wp-content/uploads/2017/06/b6cccc7593928f4861601289b937d19dac95bed9_1600x1200.jpg" alt="">
                                     </a>
                                     <div class="content">
                                         <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
-                                            Cursos Online
+                                            Artículos
                                         </span>
                                         <br>
                                         <br>
-                                        <h3>#71SEXYACKS para tu marca personal</h3>
-                                        <p>Ideas y herramientas efectivas para tu marca personal.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div>
-                                <article>
-                                    <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
-                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
-                                    </a>
-                                    <div class="content">
-                                        <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
-                                            Cursos Online
-                                        </span>
-                                        <br>
-                                        <br>
-                                        <h3>#71SEXYACKS para tu marca personal</h3>
-                                        <p>Ideas y herramientas efectivas para tu marca personal.</p>
+                                        <h3>¿Qué significa vender en 2020 en tendencias futuras de negocios?</h3>
+                                        <p>Desarrolla nuevas formas de vender.</p>
                                     </div>
                                 </article>
                             </div>

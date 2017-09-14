@@ -2,7 +2,9 @@
                     <header id="header" class="alt">
                         <!-- Logo -->
                             <div class="logo">
-                                <a href="<?php bloginfo('template_directory'); ?>"><img src="http://tabuniversity.com/wp-content/uploads/2017/09/logo_tab_1.png" style="width: 150px;margin-top: 18px;"></a>
+                                <a href="<?php echo get_home_url() ?>">
+                                    <img src="http://tabuniversity.com/wp-content/uploads/2017/09/logo_tab_1.png" style="width: 150px;margin-top: 18px;">
+                                </a>
                             </div>
 
                         <!-- Nav -->
@@ -13,7 +15,7 @@
                                         
                                     <ul class="" style="user-select: none; display: none; position: absolute;">
                                             <li style="white-space: nowrap;"><a href="http://tabuniversity.com/articulos" style="display: block;">Artículos</a></li>
-                                            <li style="white-space: nowrap;"><a href="http://tabuniversity.com/cursos" style="display: block;">Cursos</a></li>
+                                            <li style="white-space: nowrap;"><a href="http://tabuniversity.com/cursos" style="display: block;">Cursos Online</a></li>
                                             <li style="white-space: nowrap;"><a href="http://tabuniversity.com/tabcast" style="display: block;">TABcast</a></li>
                                         </ul></li>
                                     

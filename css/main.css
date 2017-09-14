@@ -1033,7 +1033,6 @@
 		ul.style3 li {
 			padding: 1.2em 0em;
 			margin: 0 0 1em 0;
-			border-top: 1px solid rgba(0, 0, 0, 0.1);
 		}
 
 			ul.style3 li:first-child {
@@ -5021,6 +5020,7 @@
 		.posts > div > article {
 			background-color: #ffffff;
 			margin: 0 0 5rem 0;
+			height: 30em;
 		}
 
 			.posts > div > article > .image {
@@ -7251,3 +7251,22 @@
         max-width: 100%;
         height: auto !important;
         }
+
+.label {
+		display: inline; padding: .2em .6em .3em;
+		font-size: 75%;
+		font-weight: 700;
+		line-height: 1;color: #fff;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: baseline;
+		border-radius: .25em;
+}
+
+.label-cursosonline {
+		background-color: #dd7b2e;
+}
+
+.label-eventos {
+		background-color: #88ac35;
+}
