@@ -88,8 +88,6 @@
                         <video src="http://localhost:8888/tabuniversity/wp-content/themes/tabuniversity-wp/img/branding.mp4" muted="" autoplay="" loop="" playsinline=""></video>
                     </section>
 
-            
-
             <!-- Main -->
                 <div id="main">
                     <div class="container">
@@ -100,49 +98,53 @@
                                 <div id="content" class="8u 12u(mobile)">
                                     <section>
                                         <header>
-                                            <h2>Agenda</h2>
+                                            <h2>Próximos eventos</h2>
                                         </header>
-                                        <ul class="style3">
-                                            <li>
-                                                <p class="date">Sep<b>22</b></p>
-                                                <h3><a href="https://www.facebook.com/events/1935478423392673/" target="_blank">Social Media Workshop</a></h3>
-                                                <p><strong>Veracruz, México.</strong></p>
-                                                <p>Taller estratégico sobre su implementación táctica en redes sociales.</p>
-                                            </li>                                            
-                                            <li>
-                                                <p class="date">Oct<b>14</b></p>
-                                                <h3><a href="https://www.facebook.com/events/941856056022399/" target="_blank">Project Management Workshop</a></h3>
-                                                <p><strong>Ciudad de México, México.</strong></p>
-                                                <p>Curso intensivo de gestión de proyectos.</p>
-                                            </li>
-                                            <li>
-                                                <p class="date">Oct<b>21</b></p>
-                                                <h3><a href="https://www.facebook.com/events/1649464638418896/" target="_blank">Business Master Class</a></h3>
-                                                <p><strong>Puebla, México.</strong></p>
-                                                <p>Curso intensivo de gestión de proyectos.</p>
-                                            </li>
-                                            <li>
-                                                <p class="date">Oct<b>28</b></p>
-                                                <h3><a href="https://www.facebook.com/events/1433569226691643/" target="_blank">Branding Master Class</a></h3>
-                                                <p><strong>Ciudad de México. México. Septiembre 2017.</strong></p>
-                                                <p>Curso intensivo de gestión de proyectos.</p>
-                                            </li>                                            
-                                        </ul>
+                                        <br>
+                                            <ul class="style3">
+
+
+<?php
+query_posts(array('showposts' => 10, 'post_parent' => 135, 'post_type' => 'page', 'order' => 'ASC'));
+
+while (have_posts()) { the_post();
+echo '<li>';
+$fecha = substr(rwmb_meta( 'rw_fechainicio'), 0, 10);
+echo '<p class="date">'. date("M", strtotime($fecha)) .'<b>'. date("d", strtotime($fecha)) . '</b></p>';
+echo '<h3><a href="' . get_permalink() . '"</a>';
+the_title();
+echo '</a></h3>';
+echo '<p><strong>' . rwmb_meta( 'rw_ciudad' ) . '</strong></p>';
+echo '<p>' . rwmb_meta( 'rw_descripcion' ); '.</p>';
+echo '</li>';
+
+
+}
+
+wp_reset_query();  // Restore global post data
+?>                                                
+
+                                            </ul>
                                     </section>
                                 </div>
+
 
                             <!-- Sidebar -->
                                 <div id="sidebar" class="4u 12u(mobile)">
                                     <section>
                                         <header>
-                                            <h2 style="font-size: 2em;">Asiste a nuestros próximos eventos</h2>
+                                            <h2 style="font-size: 2em;">Agenda de Transmisiones</h2>
                                         </header>
                                         <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/20901720_2364326083791515_7722115604214848137_o.jpg?oh=7cc475ad08374ba357ef3f61e1b5a818&amp;oe=5A4BFFE8" alt="" class="image featured">
+                                        <p>Hacks para PAD</p>
                                     </section>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+                                                                                
 
                 <!-- Section -->
                     
@@ -151,6 +153,10 @@
                     <br>
                     <br>
                     <div class="inner">
+                        <header>
+                            <h2>Nuevas publicaciones</h2>
+                        </header>
+                        <br>
                         <div class="posts" style="margin: 0 0 0rem 0;">
                             <div>
                                 <article>
@@ -158,6 +164,11 @@
                                         <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
                                     </a>
                                     <div class="content">
+                                        <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
+                                            Cursos Online
+                                        </span>
+                                        <br>
+                                        <br>
                                         <h3>#71SEXYACKS para tu marca personal</h3>
                                         <p>Ideas y herramientas efectivas para tu marca personal.</p>
                                     </div>
@@ -165,92 +176,87 @@
                             </div>
                             <div>
                                 <article>
-                                    <a href="https://www.youtube.com/watch?v=jRyjl1QTklk&list=PLwyBUYgAOQ9fhvZeEGYpDsMdch0OV6UML" class="image">
-                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/bb8KIphKQ6igP0K8v29s_CCI_EA-08.jpg" alt="">
+                                    <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
+                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
                                     </a>
-                                        <div class="content">                                            
-                                            <h3>Emprendimiento Avanzado</h3>
-                                            <p>Domina los negocios desde una posición superior. Sé trascendental.</p>
-                                        </div>
-                                    </article>
-                                    
-                                </div>
-                                <div>
-                                    <article>
-                                        <a href="https://www.youtube.com/watch?v=7VPIiNWxkhg&list=PLwyBUYgAOQ9e2YpuoJqeNX-QkwGQjiqPA" class="image">
-                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/dxReiUxfT5qK0ZhFTTkm_CCI_U10X-08.jpg" alt=""></a>
-                                        <div class="content">
-                                            <h3>Universitario 10X</h3>
-                                            <p>Da un salto exponencial en tu vida universitaria.</p>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div>
-                                    <article>
-                                        <a href="https://www.youtube.com/watch?v=EtOeMSnlnYg&list=PLwyBUYgAOQ9dZMhkYP4J-EfYp8zt_SDG5" class="image">
-                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/KZ3BQKQhSUOzbccKowB1_CCI_MKTPRO-08.jpg" alt="">
-                                        </a>
-                                        <div class="content">
-                                            <h3>Marketing PRO</h3>
-                                            <p>Crea tu primera campaña de Marketing Online.</p>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div>
-                                    <article>
-                                        <a href="https://www.youtube.com/watch?v=5vzA1sxDeTQ&list=PLwyBUYgAOQ9fUxm8JYlIryVNaKfuw0mqP" class="image">
-                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/nhAoZTTWRkmPwqP7SaDi_CCI_LE-08.jpg" alt="">
-                                        </a>
-                                        <div class="content">
-                                            <h3>Liderazgo Empresarial</h3>
-                                            <p>Cómo llevar a tu equipo a través del cambio.</p>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div>
-                                    <article>
-                                        <a href="https://www.youtube.com/watch?v=3QDc7OS7a9g&list=PLwyBUYgAOQ9esoq1DjrJAIjSEIXHryVqz" class="image"><img src="http://tabuniversity.com/wp-content/uploads/2017/09/rAsFqJBFSSKpsTTvwpjE_2611489620256.original.jpg" alt=""></a>
-                                        <div class="content">
-                                            <h3>Tácticas de Ventas para Principiantes</h3>
-                                            <p>Estrategias y aptitudes esenciales para vender.</p>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div>
-                                    <article>
-                                        <a href="https://www.youtube.com/watch?v=dkWV2ljmlIc&list=PLwyBUYgAOQ9c9tgyyRNer8Y_sVdiLBpp0" class="image">
-                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/2571500395316.original.png" alt=""></a>
-                                        <div class="content">
-                                            <h3>Curso Básico de Comercio Electrónico</h3>
-                                            <p>Da un salto exponencial en tu vida universitaria.</p>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div>
-                                    <article>
-                                        <a href="https://www.youtube.com/watch?v=1JbB5t5ZwAk&list=PLwyBUYgAOQ9e_mOarjKjz_zrMjjX-i5v4" class="image">
-                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/9341502159327.original.png" alt=""></a>
-                                        <div class="content">
-                                            <h3>Entrenamiento en Livestreaming</h3>
-                                            <p>Da un salto exponencial en tu vida universitaria.</p>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div>
-                                    <article>
-                                        <a href="https://www.youtube.com/watch?v=SNHiyE26CU8&list=PLwyBUYgAOQ9eq4XuMxRSztYUuLJ9j2yrA" class="image">
-                                            <img src="http://tabuniversity.com/wp-content/uploads/2017/09/0611496975598.original.png" alt="">
-                                        </a>
-                                        <div class="content">
-                                            <h3>Clase Maestra de Marca Personal</h3>
-                                            <p>Comunica todos tus talentos y triunfa profesionalmente.</p>
-                                        </div>
-                                    </article>
-                                </div>
+                                    <div class="content">
+                                        <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
+                                            Cursos Online
+                                        </span>
+                                        <br>
+                                        <br>
+                                        <h3>#71SEXYACKS para tu marca personal</h3>
+                                        <p>Ideas y herramientas efectivas para tu marca personal.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article>
+                                    <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
+                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
+                                            Cursos Online
+                                        </span>
+                                        <br>
+                                        <br>
+                                        <h3>#71SEXYACKS para tu marca personal</h3>
+                                        <p>Ideas y herramientas efectivas para tu marca personal.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article>
+                                    <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
+                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
+                                            Cursos Online
+                                        </span>
+                                        <br>
+                                        <br>
+                                        <h3>#71SEXYACKS para tu marca personal</h3>
+                                        <p>Ideas y herramientas efectivas para tu marca personal.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article>
+                                    <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
+                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
+                                            Cursos Online
+                                        </span>
+                                        <br>
+                                        <br>
+                                        <h3>#71SEXYACKS para tu marca personal</h3>
+                                        <p>Ideas y herramientas efectivas para tu marca personal.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article>
+                                    <a href="https://www.youtube.com/watch?v=9QBwbLOxRW4&list=PLwyBUYgAOQ9dpEO1XCfq2y4-aqhh4jNpp" class="image">
+                                        <img src="http://tabuniversity.com/wp-content/uploads/2017/09/yCqUZF1vSbyo1yYnAVIx_CCI_71SH-08.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <span class="label label-primary" style="display: inline; padding: .2em .6em .3em;font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;border-radius: .25em;    background-color: #e68e4f;">
+                                            Cursos Online
+                                        </span>
+                                        <br>
+                                        <br>
+                                        <h3>#71SEXYACKS para tu marca personal</h3>
+                                        <p>Ideas y herramientas efectivas para tu marca personal.</p>
+                                    </div>
+                                </article>
                             </div>
                         </div>
-                    </section>
-
+                    </div>
+                </section>
         <?php get_footer() ?>
         </div>
 
@@ -262,3 +268,4 @@
             <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
             <script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/main.js"></script>
 </html>
+

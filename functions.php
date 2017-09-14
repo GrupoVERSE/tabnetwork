@@ -78,6 +78,13 @@ function rw_register_meta_boxes( $meta_boxes )
                 'std'   => '',
                 'type' => 'text',
             ),
+            array(
+                'name' => 'Ciudad',
+                'id'   => $prefix . 'ciudad',
+                'desc' => '¿En dónde sucederá el evento?',
+                'std'   => '',
+                'type' => 'text',
+            ),
         ),
     );    
     return $meta_boxes;
