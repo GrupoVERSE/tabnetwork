@@ -10,6 +10,7 @@
                         <!-- Nav -->
                             <nav id="nav">
                                 <ul>
+                                    <li style="white-space: nowrap;"><a style="color:white;" href="http://tabuniversity.com/eventos">Cursos</a></li>
                                     <li class="current opener" style="user-select: none;cursor: pointer;white-space: nowrap;opacity: 1;">
                                         <a href="http://tabuniversity.com/publicaciones" class="icon fa-angle-down" style="color:white !important;">Publicaciones</a>
                                         

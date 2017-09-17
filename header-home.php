@@ -8,6 +8,7 @@
                         <!-- Nav -->
                             <nav id="nav">
                                 <ul>
+                                    <li style="white-space: nowrap;"><a style="color:white;" href="http://tabuniversity.com/cursos">Cursos Online</a></li>
                                     <li class="current opener" style="user-select: none;cursor: pointer;white-space: nowrap;opacity: 1;">
                                         <a href="http://blog.tabuniversity.com" class="icon fa-angle-down" style="color:white !important;">Publicaciones</a>                                        
                                     <!-- <ul class="" style="user-select: none; display: none; position: absolute;">
