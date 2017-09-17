@@ -69,7 +69,7 @@
 </script>
 </head>
     <body class="post-template">
-        <?php get_header("single") ?>
+        <?php get_header("home") ?>
 
         <nav class="pushy pushy-left">
             
