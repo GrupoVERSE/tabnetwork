@@ -124,15 +124,16 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
                 <h1 class="post-title"><?php the_title(); ?></h1>  
 
                 <div class="post-meta" style=" text-align:center;">
-                    <span class="author">Por <a target="_blank" href="<?php echo the_author_meta('user_url')?>"><?php the_author(); ?></a></span>
+                    <span class="author"><a target="_blank" href="<?php echo the_author_meta('user_url')?>"><?php the_author(); ?></a></span>
 
                 </div>
  
         <!-- Facebook Share Button -->
 
-        <div class="socialbutton facebookbutton" style="text-align:center; margin-bottom: 50px; margin-top: 25px;">
-          <div class="fb-share-button" data-href="<?php echo get_permalink(); ?>" data-layout="button_count" data-mobile-iframe="true"></div>
+        <div class="socialbutton facebookbutton" style="text-align:center !important; margin-bottom: 50px; margin-top: 25px;">
+          <div class="fb-share-button" data-href="<?php echo get_permalink(); ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
         </div>
+
 
                 <section class="post-content-output">
                     <?php the_content(); ?>

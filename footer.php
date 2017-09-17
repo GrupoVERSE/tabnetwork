@@ -21,13 +21,16 @@
     <h3>Menú</h3>
     <ul class="links">
         <li>
-            <a href="http://tabuniversity.com/publicaciones" style="cursor: pointer;">Publicaciones</a>
+            <a href="http://tabuniversity.com/cursos" style="cursor: pointer;color:black;">Cursos Online</a>
         </li>
         <li>
-            <a href="http://tabuniversity.com/eventos" style="cursor: pointer;">Eventos</a>
+            <a href="http://tabuniversity.com/publicaciones" style="cursor: pointer;color:black;">Publicaciones</a>
         </li>
         <li>
-            <a href="http://facebook.com/groups/ComunidadTAB/" style="cursor: pointer;">Comunidad</a>
+            <a href="http://tabuniversity.com/eventos" style="cursor: pointer;color:black;">Eventos</a>
+        </li>
+        <li>
+            <a href="http://facebook.com/groups/ComunidadTAB/" style="cursor: pointer;color:black;">Comunidad</a>
         </li>
     </ul>
 </section>

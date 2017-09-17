@@ -469,7 +469,9 @@ right:10px
 /*! Pushy - v0.9.2 - 2014-9-13
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
 * https://github.com/christophery/pushy/
-* by Christopher Yee */.pushy{
+* by Christopher Yee */
+
+.pushy{
 position:fixed;
 width:230px;
 height:100%;
@@ -1732,62 +1734,13 @@ margin-top:40px
 
 }
 
-@media screen and (max-width: 500px){
-main{
-padding-top:0
-}
-
-main h1{
-font-size:2.1em
-}
-
-main h2{
-font-size:1.5em
-}
-
-.slider-image{
-height:400px
-}
-
-.slider-image .info{
-padding:0 5%
-}
-
-.slider-image h2{
-font-size:2em
-}
-
-.author-template .author-cover-photo{
-padding-top:80%;
-background-attachment:scroll
-}
-
-.author-template .author-cover-photo h2{
-margin:0 5%;
-font-size:1.3em
-}
-
-.post-template .post-image,.page-template .post-image{
-padding-top:80%
-}
-
-.site-footer{
-text-align:center
-}
-
-.site-footer .copyright,.site-footer .social-media{
-width:100%
-}
-
-
-}	
 
 .fb_iframe_widget {width:100%!important}
 .fb_iframe_widget span {width:100%!important;}
 .fb_iframe_widget span iframe{width:100%!important;}
 
-
 .post-content-output{
-
+    text-align: justify;
     color:black;
 }
+
