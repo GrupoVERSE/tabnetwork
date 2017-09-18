@@ -100,23 +100,17 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
             
             <section class="post-content" style="margin-top:-60px;">
 
+
+
                 <div class="post-tags">
                     <?php
-                        function show_categories($excl=''){
-                        $categories = get_the_category($post->ID);
-                        if(!empty($categories)){
-                        $exclude=$excl;
-                        $exclude = explode(",", $exclude);
-
-                        foreach ($categories as $cat) {
-                            if(!in_array($cat->cat_ID, $exclude)) {
-                                echo '<a href="#"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;' . $cat->cat_name . '</a>';
+                        $post_tags = get_the_tags();
+                        if ( $post_tags ) {
+                            foreach( $post_tags as $tag ) {
+                                echo '<a href="#"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;' . $tag->name . '</a>';
                                 }
                             }
-                        }
-                    }
-                 ?>
-                <?php show_categories(); ?>     
+                    ?>   
                 </div> 
 
                 <time class="post-date" ><?php the_date('d' . '/' . 'n'. '/' . 'Y', ' '); ?></time>
