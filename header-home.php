@@ -2,7 +2,7 @@
                     <header id="header" class="alt">
                         <!-- Logo -->
                             <div class="logo">
-                                <a href="<?php bloginfo('template_directory'); ?>"><img src="http://tabuniversity.com/wp-content/uploads/2017/09/logo_tab_2.png" style="width: 150px;margin-top: 18px;"></a>
+                                <a href="<?php echo get_home_url() ?>"><img src="http://tabuniversity.com/wp-content/uploads/2017/09/logo_tab_2.png" style="width: 150px;margin-top: 18px;"></a>
                             </div>
 
                         <!-- Nav -->
