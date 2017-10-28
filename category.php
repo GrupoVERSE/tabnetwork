@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html class=" js no-touch csstransforms3d">
 <head>
-    <title><?php echo get_bloginfo( $show, 'display' ); ?></title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/favicon.ico">
+        <title><?php echo get_bloginfo( $show, 'display' ); ?></title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" href="http://prueba.tab.network/wp-content/uploads/2017/10/favicon.ico">
+        <!--<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/favicon.ico">-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/single.css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">        
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">      
 
-        <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="shortcut icon" href="https://s3.amazonaws.com/thinkific/site_themes/favicon_000/009/098/1461875879.original.png">
-
-        <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/single.css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">        
+        <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>"> 
     
         <meta property="og:site_name" content="<?php echo get_bloginfo( $show, 'display' ); ?>">
         <meta property="og:type" content="article">
@@ -27,6 +29,7 @@
         <meta property="article:modified_time" content="">
         <meta property="article:tag" content="">
         <meta property="fb:pages" content="2018940581663402" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">  
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -47,31 +50,40 @@
 <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/shb3v5rz';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 
     </head>
-    <body class="home-template">
-        <?php get_header("navigation") ?>
+<style>
+.post-excerpt {
+    height: 110px !important;
+}
+.post .post-title:after {
+        content: none !important;
+}
+</style>
+
+    <body class="home-template" style="margin-bottom: -30px;">
+		<div id="page-wrapper" style="">
+
+            <?php get_header('home') ?>
+			
+			<nav class="pushy pushy-left"></nav>
 
         <div class="site-overlay"></div>
 
-        <main id="main" role="main">
+        <main class="animated" id="main" role="main">
+        
+
+        
+
+        <main id="main" role="main" style="background-color: #F7F7F7;">
             <div class="flexslider">
-                <ul class="slides">
-                    <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; display: block; z-index: 2; opacity: 0.0295596;">
                         <a href="<?php echo get_permalink($id) ?>">   
                             <div class="slider-image" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
-                                <div class="wrapper">
-                                    <div class="info">
-                                        <h2><?php the_title(); ?></h2>
-                                    </div>
-                                </div>
                             </div>
                         </a>
-                    </li>
-                </ul>
                 
             
             </div>
         
-    <div class="wrapper posts clearfix">  
+    <div class="wrapper clearfix">  
         
         <?php if(have_posts()) : while(have_posts()) : the_post(); ?>        
 
@@ -86,47 +98,39 @@
                     </div>
                 </div>  
                 <section class="post-excerpt">
-                    <time class="post-date" datetime="2014-08-23"><?php the_date('d' . '/' . 'n'. '/' . 'Y', ' '); ?></time>              
+                    <time class="post-date" datetime="2014-08-23"><?php the_date('d' . '/' . 'n'. '/' . 'Y', ' '); ?></time>
+					<span class="author"><a target="_blank" href="<?php echo the_author_meta('user_url')?>" style="font-weight: 400; font-size: 16px; color: #000000;"><?php the_author(); ?></a></span> 
                     <h2 class="post-title">
                         <?php the_title(); ?>
                     </h2>
                 </section> 
             </a>
-        </div>      
-        <?php endwhile ?> 
-        <?php else : ?>
+        </div>
+		<?php endwhile ?>
+		<?php else : ?>      
         <?php endif; ?>
+
     </div>
     <nav class="pagination" id="pagination" role="pagination">
         <?php posts_nav_link('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;','< ','>'); ?>
     </nav>
 
         </main>
+	</main>
+		<div style="padding-top: 1530px;">
+			<?php get_footer() ?>	
+		</div>	
+            
+	</div>
 
-            <footer class="site-footer">
-                <div class="wrapper">
-                    <div class="info clearfix">
-                        <div class="copyright">
-                            © 2016 TAB University. Todos los derechos reservados.
-                        </div>
-                    
-                        <section class="social-media" style="visibility: visible;">
-                    
-                            <a class="facebook" href="http://www.facebook.com/tabuniversity" target="_blank">
-                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                            </a>
-                    
-                            <a class="instagram" href="http://www.instagram.com/tabuniversity">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                        </section>
-                    </div>
-                </div>        
-            </footer>
 
-        <script src="<?php bloginfo('template_directory'); ?>/js/jquery.js"></script>
+
+
+		<script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/jquery.min.js"></script>
         <script src="<?php bloginfo('template_directory'); ?>/js/theme-options.js"></script>
         <script src="<?php bloginfo('template_directory'); ?>/js/main.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
     </body>
 </html>

@@ -3,16 +3,20 @@
 <head>
     <title><?php echo get_bloginfo( $show, 'display' ); ?></title>
 
-        <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/favicon.ico">
-        <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">        
+		<link rel="shortcut icon" href="http://prueba.tab.network/wp-content/uploads/2017/10/favicon.ico">
+		<!--<link rel="shortcut icon" href="https://s3.amazonaws.com/thinkific/site_themes/favicon_000/009/098/1461875879.original.png">--> 
+        <!--<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/favicon.ico">-->   
 
         <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">        
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet" type="text/css">  
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">         
     
         <meta property="og:site_name" content="<?php echo get_bloginfo( $show, 'display' ); ?>">
         <meta property="og:type" content="article">
@@ -49,38 +53,38 @@
 
                 <!-- Banner -->
                     <section id="banner">
-                        <div class="content primary">
+                        <div class="content primary" style="">
                             <header>
-                                <h1 style="margin: 0 0 0 0; color: white;">Domina tus talentos empresariales.</h1>
+                                <h1 class="title">Ideas, técnicas y estrategias de negocios.</h1>
                                 <br>
-                                <p style="color: white;font-size: 21px;">
-                                    Aprende sobre negocios, productividad y formación de equipos.
+                                <p class="subtitle">
+                                    Plataforma global de educación empresarial.
                                 </p>
                             </header>
                             <ul class="actions">
-                                <li><a href="http://facebook.com/groups/ComunidadTAB/" class="button big wide scrolly" style="color: white !important;box-shadow: inset 0 0 0 3px #ffffff;">
-                                    Unirme a la Comunidad</a>
+                                <li><a href="https://www.facebook.com/groups/NetworkTAB" target="_blank" class="button big wide scrolly" style="color: white !important;">
+                                    Únete a la Comunidad</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="content secondary">
-                            <div class="inner">
-                                <div class="features">
-                                    <section>
-                                        <a target="_blank" href="http://facebook.com/groups/ComunidadTAB/"><span class="icon fa-users major"></span></a>
-                                        <h3>Comunidad de Alto Desempeño</h3>
-                                        <p>Rodéate de +1000 empresarios, artistas y profesionistas excepcionales.</p>
-                                    </section>                                    
-                                    <section>
-                                        <span class="icon fa-university major"></span>
-                                        <h3>Eventos</h3>
-                                        <p>Clases Maestras para tomar mejores decisiones ante tendencias de negocios.</p>
-                                    </section>
-                                    <section>
-                                        <span class="icon fa-tablet major"></span>
-                                        <h3>Publicaciones</h3>
-                                        <p>Disfruta artículos, cursos y casos de estudio empresariales.</p>
-                                    </section>                                    
+                        <div class="content secondary col-xs-12">
+                            <div class="inner col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-4 margintop">
+                                        <img src="http://prueba.tab.network/wp-content/uploads/2017/10/Fill_1.png" style="width: 50px;">
+                                        <h3 style="font-weight: 700; font-size: 21px; padding-top:20px;">TAB Network</h3>
+                                        <p class="text">Rodéate de +1000 empresarios y creadores excepcionales.</p>
+                                    </div>                                    
+                                    <div class="col-xs-12 col-sm-4 margintop">
+                                        <img src="http://prueba.tab.network/wp-content/uploads/2017/10/Page_1.png" style="width: 58px;">
+                                        <h3 style="font-weight: 700; font-size: 21px; padding-top:20px;">Master Clases</h3>
+                                        <p class ="text">Eventos para tomar mejores decisiones ante tendencias de negocios.</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 margintop">
+                                        <img src="http://prueba.tab.network/wp-content/uploads/2017/10/Doc.png" style="width: 38px;">
+                                        <h3 style="font-weight: 700; font-size: 21px; padding-top:20px;">Publicaciones</h3>
+                                        <p class="text">Disfruta artículos, cursos y casos de estudio empresariales.</p>
+                                    </div>                                    
 
                                 </div>
                             </div>
@@ -90,12 +94,12 @@
 
             <!-- Main -->
                 <div id="main">
-                    <div class="container">
+                    <div class="inner container">
 
                         <div class="row">
 
                             <!-- Content -->
-                                <div id="content" class="8u 12u(mobile)">
+                                <div id="content" class="col-xs-12 col-sm-6">
                                     <section>
                                         <header>
                                             <h2>Próximos eventos</h2>
@@ -110,14 +114,14 @@ $idpage = $page->ID;
 query_posts(array('showposts' => 10, 'post_parent' => $page->ID, 'post_type' => 'page', 'order' => 'ASC'));
 
 while (have_posts()) { the_post();
-echo '<li>';
+echo '<li style="padding: 0;">';
 $fecha = substr(rwmb_meta( 'rw_fechainicio'), 0, 10);
 echo '<p class="date">'. date("M", strtotime($fecha)) .'<b>'. date("d", strtotime($fecha)) . '</b></p>';
-echo '<h3><a href="' . get_permalink() . '"</a>';
+echo '<h3 style="color: #000000;"><a href="' . get_permalink() . '"</a>';
 the_title();
 echo '</a></h3>';
-echo '<p><strong>' . rwmb_meta( 'rw_ciudad' ) . '</strong></p>';
-echo '<p>' . rwmb_meta( 'rw_descripcion' ); '.</p>';
+echo '<p class="paddleft" style="margin-bottom: 0px !important; font-size: 12px;">' . rwmb_meta( 'rw_ciudad' ) . '</p>';
+echo '<p class="paddleft" style="color: #4A4A4A;">' . rwmb_meta( 'rw_descripcion' ); '.</p>';
 echo '</li>';
 
 
@@ -130,16 +134,16 @@ wp_reset_query();  // Restore global post data
                                     </section>
                                 </div>
 
+								<div id="content" class="col-sm-2"></div>
+
 
                             <!-- Sidebar -->
-                                <div id="sidebar" class="4u 12u(mobile)">
-                                    <section>
+                                <div id="content" class="col-xs-12 col-sm-4">
                                         <header>
-                                            <h2 style="font-size: 2em;">Agenda de Transmisiones</h2>
+                                            <h2 style="font-size: 22px; color: #9B9B9B; padding-bottom: 5px; font-weight: 300;">Agenda de Transmisiones</h2>
                                         </header>
                                         <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/20901720_2364326083791515_7722115604214848137_o.jpg?oh=7cc475ad08374ba357ef3f61e1b5a818&amp;oe=5A4BFFE8" alt="" class="image featured">
-                                        <p>No hay transmisiones próximas.</p>
-                                    </section>
+                                        <p style="color: #9B9B9B;">No hay transmisiones próximas.</p>
                                 </div>
                             </div>
                         </div>
@@ -148,13 +152,13 @@ wp_reset_query();  // Restore global post data
 
                 <!-- Section -->
                     
-                <section id="three" class="main alt" style="background: #f7f7f7;">
+                <section id="three" class="main alt" style="background: #f7f7f7; padding-bottom: 40px;     margin-bottom: 0px !important;">
                     <br>
                     <br>
                     <br>
                     <div class="inner">
                         <header>
-                            <h2>Nuevas publicaciones</h2>
+                            <h2 class="textcenter">Nuevas publicaciones</h2>
                         </header>
                         <br>
                         <div class="posts" style="margin: 0 0 0rem 0;">
@@ -181,8 +185,8 @@ wp_reset_query();  // Restore global post data
                                             ?>
                                         <br>
                                         <br>
-                                        <h3><a href="<?php echo get_permalink() ?>"><?php the_title() ?></a></h3>
-                                        <p><?php echo rwmb_meta( 'rw_subtitulo' ); ?>.</p>
+                                        <h3><u><a style="font-size: 20px; padding-bottom: 10px; color: #4A4A4A; font-weight: 500;" href="<?php echo get_permalink() ?>"><?php the_title() ?></a></u></h3>
+                                        <p style="color: #9B9B9B;"><?php echo rwmb_meta( 'rw_subtitulo' ); ?>.</p>
                                     </div>
                                 </article>
                             </div>
@@ -192,7 +196,11 @@ wp_reset_query();  // Restore global post data
                         </div>
                     </div>
                 </section>
-        <?php get_footer() ?>
+        
+		        <?php get_footer() ?>
+
+
+
         </div>
 
         <!-- Scripts -->
@@ -202,5 +210,8 @@ wp_reset_query();  // Restore global post data
             <script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/util.js"></script>
             <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
             <script src="<?php bloginfo('template_directory'); ?>/wp-content/themes/tabuniversity-wp/js/main.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
 </html>
 

@@ -7,11 +7,7 @@
         <title><?php single_post_title(''); ?> - <?php echo get_bloginfo( $show, 'display' ); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="https://s3.amazonaws.com/thinkific/site_themes/favicon_000/009/098/1461875879.original.png">
-
-        <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/single.css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">                
+        <link rel="shortcut icon" href="https://s3.amazonaws.com/thinkific/site_themes/favicon_000/009/098/1461875879.original.png">             
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
@@ -22,6 +18,15 @@
         <meta property="og:type" content="article">
         <meta property="og:title" content="<?php single_post_title(''); ?> - <?php the_author(); ?>">
         <meta property="og:description" content="<?php $my_excerpt = get_the_excerpt();echo $my_excerpt;?>">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/single.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
         <meta property="og:url" content="<?php echo get_permalink(); ?>">
         <meta property="og:image" content="<?php the_post_thumbnail_url(); ?>">
         <meta property="article:author" content="https://www.facebook.com/tabuniversity" />
@@ -105,11 +110,7 @@ input[type="checkbox"], input[type="radio"] {
 	margin-bottom: 11px;
 	}
 
-
-
-
 </style>
-
 
         <?php get_header("navigation") ?>
 
@@ -169,6 +170,7 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
         <script src="<?php bloginfo('template_directory'); ?>/js/jquery.js"></script>
         <script src="<?php bloginfo('template_directory'); ?>/js/theme-options.js"></script>
         <script src="<?php bloginfo('template_directory'); ?>/js/main.min.js"></script>
-  
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     </body>
 </html>

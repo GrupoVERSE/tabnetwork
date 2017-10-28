@@ -6,13 +6,18 @@
 
         <title><?php single_post_title(''); ?> - <?php echo get_bloginfo( $show, 'display' ); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="shortcut icon" href="https://s3.amazonaws.com/thinkific/site_themes/favicon_000/009/098/1461875879.original.png">
-
+        <link rel="shortcut icon" href="http://prueba.tab.network/wp-content/uploads/2017/10/favicon.ico">
+		<!-- <link rel="shortcut icon" href="https://s3.amazonaws.com/thinkific/site_themes/favicon_000/009/098/1461875879.original.png"> -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/single.css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">                
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		               
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
@@ -68,18 +73,22 @@
 
 </script>
 </head>
-    <body class="post-template">
+
+<style>
+	button{
+		background: transparent !important;
+		padding-top: 0px;
+		float: right;
+	}
+</style>
+
+    <body class="post-template" style="margin-bottom: -30px;">
         <?php get_header("home") ?>
 
         <nav class="pushy pushy-left">
             
-            <nav class="navigation">
-                <ul>
-                    <li>
-                        <a href="index.html#">Iniciar Sesión</a>
-                    </li>
-                </ul>
-            </nav>        </nav>
+                  
+		</nav>
 
         <div class="site-overlay"></div>
 
@@ -98,11 +107,25 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
     <div class="wrapper">
         <article class="post featured">
             
-            <section class="post-content" style="margin-top:-60px;">
 
 
+               
 
-                <div class="post-tags">
+                <time class="post-date" ><?php the_date('d' . '/' . 'n'. '/' . 'Y', ' '); ?></time>
+
+                <h1 class="post-title"><?php the_title(); ?></h1>  
+
+                <div class="post-meta" style=" text-align:center;">
+                    <span class="author"><a target="_blank" href="<?php echo the_author_meta('user_url')?>" style="font-weight: 500; font-size: 18px; color: #000000;"><?php the_author(); ?></a></span>
+
+                </div>
+ 
+        <!-- Facebook Share Button -->
+		<div class="row">
+        <div class="col-xs-12 col-sm-6 socialbutton facebookbutton" style="margin-bottom: 50px;">
+          <div class="fb-share-button" data-href="<?php echo get_permalink(); ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" style="text-align: center;">Share</a></div>
+        </div>
+		<div class="col-xs-12 col-sm-6 post-tags">
                     <?php
                         $post_tags = get_the_tags();
                         if ( $post_tags ) {
@@ -111,22 +134,9 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
                                 }
                             }
                     ?>   
-                </div> 
-
-                <time class="post-date" ><?php the_date('d' . '/' . 'n'. '/' . 'Y', ' '); ?></time>
-
-                <h1 class="post-title"><?php the_title(); ?></h1>  
-
-                <div class="post-meta" style=" text-align:center;">
-                    <span class="author"><a target="_blank" href="<?php echo the_author_meta('user_url')?>"><?php the_author(); ?></a></span>
-
                 </div>
- 
-        <!-- Facebook Share Button -->
+       </div> 
 
-        <div class="socialbutton facebookbutton" style="text-align:center !important; margin-bottom: 50px; margin-top: 25px;">
-          <div class="fb-share-button" data-href="<?php echo get_permalink(); ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
-        </div>
 
 
                 <section class="post-content-output">
@@ -139,10 +149,9 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
                         </div>
 
                         <div class="author-bio">
-                            <h3><?php the_author(); ?></h3>
-                                <p><?php echo nl2br(get_the_author_meta('description')); ?></p>
-                                <br>
-                            <p><a href="<?php echo the_author_meta('user_url')?>" target="_blank"><?php echo the_author_meta('user_url')?></a></p>
+                            <h3 style="color: #000;"><?php the_author(); ?></h3>
+                                <p class="textcenter" style="color: #9B9B9B"><?php echo nl2br(get_the_author_meta('description')); ?></p>
+                            <p class="textcenter"><a href="<?php echo the_author_meta('user_url')?>" target="_blank" style="color: #9B9B9B;"><?php echo the_author_meta('user_url')?></a></p>
                         </div>
                 </section>
 

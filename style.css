@@ -6,3 +6,405 @@ Author: Mike Nieva
 Author URI: http://tabuniversity.com/
 Version: 0.1.0
 */
+
+@media screen and (max-width: 360px){
+    .paddleft{
+		padding-left: 66px;
+	}
+}
+
+@media screen and (min-width: 361px){
+    .paddleft{
+		padding-left: 73px;
+	}
+}
+
+@media screen and (max-width: 480px){
+    #header.alt > .logo {
+        top: 28px !important;
+        left: 1rem;
+    }
+	#banner .content {
+        padding: 2.5rem 1.5rem 4rem 1.5rem !important;
+	}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	#header.alt > .logo {
+		top: 30px !important;
+	}
+}
+
+@media screen and (max-width: 574px){
+    .visiblesm{
+		display: none !important;
+	}
+    .redes {
+        text-align: center;
+        font-size: 40px;
+		padding: 0px 23px;
+    }
+    .redescolor {
+        color: #C8C8C8;
+    }
+	.vsp {
+        font-size: 18px !important;
+        line-height: 25px;
+        letter-spacing: 1.5px;
+		text-align: center;
+        color: #C8C8C8 !important;
+	}
+	.margintop{
+		margin-top: 20px;
+	}
+}
+	
+@media screen and (min-width: 575px){
+    .visiblexs{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 736px){
+	.posts > div > article {
+    	margin: auto auto 3rem auto !important;
+    	max-width: 25rem !important;
+	}
+}
+
+@media screen and (max-width: 768px){
+    .textcenter {
+       text-align: center !important;
+   	}
+	#banner .content.primary {
+	   background-size: 410% !important;
+	   background-position: 35% !important;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 980px){
+	#banner .content.primary {
+	   background-size: 300% !important;
+	   background-size: 200% !important;
+       background-position: 30% !important;
+	}
+}
+
+@media screen and (max-width: 768px){
+    .visibleheadersm{
+		display: none !important;
+	}
+	.post-excerpt {
+    	margin-top: 0px !important;
+	}
+	
+	button {
+    	box-shadow: none !important;
+	}
+}
+	
+@media screen and (min-width: 769px){
+    .visibleheaderxs{
+		display: none;
+	}
+	#header > nav {
+       display: -webkit-inline-box !important;
+   }
+}
+		
+@media screen and (max-width: 980px){
+   #footer > .inner > * {
+      text-align: left;
+   }
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1089px){
+	#banner .content.primary {
+	   background-size: 109% !important;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+   .home-template .posts, .archive-template .posts, .author-template .posts, .tag-template .posts {
+       padding: 0 4% !important;
+   }
+   .home-template .post{
+	   padding: 0px 20px !important;
+   }
+}
+
+@media screen and (min-width: 1171px){
+   .home-template .post{
+       padding: 0px;
+   }
+}
+
+@media screen and (max-width: 1180px){
+	#banner .content {
+    	padding: 4.5rem 0 7rem 0 !important;
+	}
+}
+
+@media only screen and (min-width: 1181px) and (max-width: 1280px){
+	#banner .content {
+    	padding: 4.5rem 0 9rem 0 !important;
+	}
+}
+
+@media screen and (min-width: 1281px){
+	.paddleft{
+    	padding-left: 80px !important;
+	}
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1684px){
+	#banner .content.primary {
+		background-size: 109% !important;
+	}
+}
+@media screen and (min-width: 1685px){
+	#banner .content.primary {
+		background-size: 100% !important;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto;
+}
+
+#banner header {
+    padding: 3em 0em 1em 0em;
+}
+
+#main .container {
+    padding: 4em 2em !important;
+    background: #fff;
+}
+
+#banner .content.primary {
+	background: url(http://prueba.tab.network/wp-content/uploads/2017/10/riku-lu-4170.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #000 !important;
+}
+
+.button.big {
+    background-color: #9013FE;
+    border-color: #9013FE;
+    box-shadow: none !important;
+	font-weight: 200;
+    font-size: 16px !important;
+    letter-spacing: 1px;
+    width: 250px;
+    padding-top: 0px !important;
+	border-radius: 8px !important;
+}
+
+.button:hover {
+    background-color: #000000 !important;
+	text-decoration: none !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+#banner .content.secondary {
+    background-color: #F7F7F7 !important;
+}
+
+ul.style3 .date {
+	background: black !important;
+    border-radius: 8px !important;
+}
+
+ul.style3 a {
+    color: black !important;
+}
+
+ul.style3 h3, ul.style3 p {
+    margin-bottom: 0px;
+	font-family: Roboto;
+}
+
+ul.icons {
+    display: grid !important;
+}
+
+ul.icons a {
+    color: #C8C8C8 !important;
+	text-align: left !important;
+}
+
+ul.icons a:hover {
+    color: #9013FE !important;
+}
+
+ul.icons li .icon:before {
+    font-size: 1.3rem !important;
+}
+
+ul.icons li {
+    margin-bottom: 0px !important;
+}
+
+
+ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+
+ul li {
+    padding-left: 0 !important;
+}
+
+.icon > .label {
+    display: inline-grid !important;
+}
+
+#footer > .inner {
+    border-bottom: 1px solid #DFDFDF;
+    padding-bottom: 10px;
+}
+
+#footer {
+    background-color: #252525 !important;
+}
+
+#footer span {
+    font-size: 0.90em;
+    position: absolute;
+    margin-top: 4px;
+	font-family: Work Sans;
+    font-weight: 200;
+}
+
+#footer h3 {
+	font-family: Work Sans !important;
+	font-size: 14px;
+	text-align: left;
+}
+
+#footer p {
+	font-family: Work Sans !important;
+	font-size: 14px !important;
+}
+#footer a {
+	color: #C8C8C8;
+	cursor: pointer;
+}
+
+#footer .copyright {
+    margin-top: 1rem !important;
+}
+
+#footer > .inner > * > :last-child {
+    margin-bottom: 0;
+    font-size: 14px !important;
+}
+
+.slider-image {
+    height: 600px !important;
+}
+
+.text {
+	color: #4A4A4A;
+	font-size: 17px;
+	text-align: center;
+	font-family: Roboto;
+}
+
+p {
+    margin: 0 0 1rem 0 !important;
+	font-family: Roboto !important;
+}
+
+a {
+    border-bottom: none !important;
+}
+
+a:hover {
+    color: #9013FE !important;
+	text-decoration: none !important;
+}
+
+.post-date {
+    color: #9B9B9B;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.post .post-title:after {
+    border: solid 1px #000000 !important;
+    width: 40px !important;
+}
+
+.post-tags a:link, .post-tags a:visited {
+    background: none !important;
+    color: #9B9B9B !important;
+    border: none !important;
+}
+
+.post-content-output {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.post-excerpt {
+    background-color: #FFF !important;
+	height: 150px;
+}
+
+.post .featured-image {
+    height: 180px !important;
+}
+
+.post-template .post-image {
+    margin-top: 70px;
+}
+
+#header.alt {
+    background-color: black !important;
+    height: 75px !important;
+	position: fixed;
+    line-height: 2.25rem !important;
+}
+
+#nav > ul > li > a, #nav > ul > li > span {
+    padding: 0.25em .5em 0.25em .5em;
+	font-size: 13px !important;
+}
+
+.title{
+	margin: 0 0 0 0;
+    color: white;
+    font-weight: 100;
+	font-size: 42px !important;
+    letter-spacing: 1px;
+}
+.subtitle{
+	color: white;
+	font-size: 24px;
+	font-weight:100;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.collapse {
+    display: none;
+}
+
+.menucollapse {
+    text-align: center;
+    border-bottom: 1px solid #C8C8C8;
+    padding: 0px;
+}
+
+.card {
+    background-color: transparent !important;
+}
+
+.card-body {
+    padding: .5rem !important;
+}
